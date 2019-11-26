@@ -1,0 +1,14 @@
+<!--pages/morelist/morelist.wxml-->
+<!-- 精品歌单 -->
+<view class="music_tj">
+  <navigator class="music_tj_list" url="../musiclist/musiclist?id={{item.id}}" wx:for="{{musicList}}" wx:key="{{index}}">
+    <view class="music_img">
+      <image src="{{item.coverImgUrl}}"></image>
+    </view>
+    <view class="music_title">
+      <view class="music_js">
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </navigator>
+</view>

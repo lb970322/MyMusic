@@ -1,0 +1,13 @@
+<!--pages/newmusic/newmusic.wxml-->
+<view>
+  <navigator class="musiclist_content" url="../play/play?id={{item.id}}" wx:for="{{playLists}}" wx:key="{{index}}">
+    <view class="musicList_image">
+      <image src="{{item.album.blurPicUrl}}"></image>
+    </view>
+    <view class="musiclist_msg">
+      <text class="musiclist_msg_name">曲名：{{item.name}}\n</text>
+      <text>\n</text>
+      <text class="musiclist_msg_author">歌手：{{item.artists[0].name}}</text>
+    </view>
+  </navigator>
+</view>

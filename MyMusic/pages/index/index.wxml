@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 新歌速递 -->
+  <view class="music_new">
+    <view class="music_tj_title">
+      <text>新歌速递</text>
+      <navigator url="../newmusic/newmusic" class="more">更多</navigator>
+    </view>
+    <navigator class="music_xg_wrap" url="../play/play?id={{item.id}}" wx:for="{{newMusicList}}" wx:key="{{index}}">
+      <view class="music_xg_img">
+        <image src="{{item.song.album.blurPicUrl}}"></image>
+      </view>
+      <view class="music_xg_cont">
+        <text class="music_xg_cont_name">曲名：{{item.name}}\n</text>
+        <text>\n</text>
+        <text class="music_xg_cont_author">歌手：{{item.song.artists[0].name}}</text>
+      </view>
+    </navigator>
+  </view>
+  <!-- 精品歌单 -->
+  <view class="music_tj">
+    <view class="music_tj_title">
+      <text>精品歌单</text>
+      <navigator url="../morelist/morelist" class="more">更多</navigator>
+    </view>
+    <navigator class="music_tj_list" url="../musiclist/musiclist?id={{item.id}}" wx:for="{{musicList}}" wx:key="{{index}}">
+      <view class="music_img">
+        <image src="{{item.coverImgUrl}}"></image>
+      </view>
+      <view>
+        <!-- <view class="music_name">
+          <text>{{item.copywriter}}</text>
+        </view> -->
+        <view class="music_js">
+          <text>{{item.name}}</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

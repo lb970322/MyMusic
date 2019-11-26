@@ -1,0 +1,13 @@
+<!--pages/play/play.wxml-->
+<view class="main">
+  <!-- 歌曲详情 -->
+  <view class="music_info">
+    <!-- 歌曲标签 -->
+    <!-- <video src="{{musicInfo.url}}" controls="controls" ></video> -->
+    <audio src="{{musicInfo.url}}" controls="true" name="{{newMusicList.name}}" author="{{newMusicList.ar[0].name}}" poster="{{newMusicList.al.picUrl}}" loop="true">
+    </audio>
+    <view><image src="{{newMusicList.al.picUrl}}"></image></view>
+    <!-- <view>{{musicLrc.lyric}}</view> -->
+    <!-- <view>{{musicInfo.id}}</view> -->
+  </view>
+</view>

@@ -1,0 +1,33 @@
+/* pages/newmusic/newmusic.wxss */
+.musiclist_content{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.musicList_image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.musicList_image image{
+  width: 200rpx;
+  height: 100%;
+}
+.musiclist_msg_name{
+  font-size: 36rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.musiclist_msg_author{
+  font-size: 36rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

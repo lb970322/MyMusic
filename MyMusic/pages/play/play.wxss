@@ -1,0 +1,7 @@
+/* pages/play/play.wxss */
+.main{
+  width: 100%
+}
+.music_info{
+  text-align: center;
+}

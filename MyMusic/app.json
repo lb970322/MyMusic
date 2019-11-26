@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/play/play",
+    "pages/logs/logs",
+    "pages/musiclist/musiclist",
+    "pages/user/user",
+    "pages/newmusic/newmusic",
+    "pages/morelist/morelist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "MyMusic"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "Setting"
+      }
+    ]
+  }
+}
