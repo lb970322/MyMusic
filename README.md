@@ -6,11 +6,11 @@
 
 #小程序分为两部分
 
-  1.NeteaseCloudMusicApi文件夹为后端API服务器 
+#  1.NeteaseCloudMusicApi文件夹为后端API服务器 
     运行方法 进入到NeteaseCloudMusicApi文件夹中，使用指令node app.js运行
     第一次运行需要进行npm install 安装所需包
     
-  2.MyMusic文件夹为前端微信小程序部分
+#  2.MyMusic文件夹为前端微信小程序部分
     运行方法 打开 微信开发者工具，选择打开MyMusic文件夹
     在API正常启动情况下即可运行
     
