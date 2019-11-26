@@ -13,6 +13,6 @@
 #  2.MyMusic文件夹为前端微信小程序部分
     运行方法 打开 微信开发者工具，选择打开MyMusic文件夹
     在API正常启动情况下即可运行
-    
+![](https://github.com/lb970322/MyMusic/blob/master/README_IMG/mydemo01.png)
 # 这个小程序为首次开发，只使用了简单的数据调用等方法，望各位大佬多多指点.
     联系本人：524147275@qq.com
